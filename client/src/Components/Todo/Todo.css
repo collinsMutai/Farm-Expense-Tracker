@@ -1,0 +1,17 @@
+.todo-container {
+  flex: 1;
+  padding: 20px 0px;
+}
+.todo-container h2 {
+  padding: 20px 0px 30px;
+}
+
+@media (max-width: 475px) {
+  .todo-container {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .todo-container h2 {
+    padding: 10px 0px 20px;
+  }
+}

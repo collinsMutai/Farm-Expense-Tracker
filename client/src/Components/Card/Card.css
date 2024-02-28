@@ -1,0 +1,74 @@
+.additem-todo-container{
+  display: flex;
+  gap: 30px;
+}
+.expense h2 {
+  font-size: 20px;
+  padding-bottom: 15px;
+}
+.expense h3 {
+  font-size: 18px;
+  font-weight: 500px;
+  line-height: 1.5;
+  letter-spacing: 1.4px;
+}
+.expense p {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.8px;
+}
+.expense .select-month {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.card {
+  background: #ebf3e6;
+  color: #000;
+  display: grid;
+  grid-template-columns: 3fr 2fr 2fr;
+  width: 450px;
+  padding: 10px;
+  border-radius: 5px;
+}
+.card-title {
+  padding-bottom: 6px;
+  font-weight: 700;
+}
+.card-body {
+  display: grid;
+  grid-template-columns: 3fr 2fr 2fr;
+  width: 400px;
+  padding-top: 5px;
+}
+@media (max-width: 475px) {
+  .additem-todo-container{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+  .main {
+    flex-direction: column;
+    flex: 1;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 80px;
+  }
+  .card {
+    width: 100%;
+  }
+  .expense h2 {
+    font-size: 16px;
+  }
+  .expense h3 {
+    font-size: 14px;
+    line-height: 1;
+    letter-spacing: 1.1px;
+  }
+  .expense p {
+    font-size: 12px;
+    line-height: 1.1;
+    letter-spacing: 0.5px;
+  }
+}

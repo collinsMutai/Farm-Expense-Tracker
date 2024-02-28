@@ -1,0 +1,64 @@
+.form {
+   flex: 1;
+  width: 55%;
+  padding: 20px 0px;
+}
+.form h2 {
+  padding: 20px 0px 30px;
+}
+.input-field {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding-bottom: 15px;
+}
+.checkboxes {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.checkboxes div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.input-field label {
+  font-size: 16px;
+  font-weight: 600;
+}
+.input-field input {
+  font-size: 12px;
+  font-weight: 600;
+  padding: 10px;
+  border-radius: 20px;
+  background: #ebf3e6;
+  color: #000;
+  border: none;
+  outline: none;
+}
+.form hr {
+  border: 2px solid #000;
+}
+@media (max-width: 475px) {
+  .form {
+    width: 80%;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .form h2 {
+  padding: 10px 0px 20px;
+}
+.input-field {
+
+  gap: 3px;
+  padding-bottom: 10px;
+}
+.checkboxes {
+  display: flex;
+  
+  flex-direction: row;
+  gap: 6px;
+}
+
+}
